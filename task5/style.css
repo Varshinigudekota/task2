@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.container{
+    /* width:auto; */
+    height:60px;
+    border:2px solid black;
+    background-color: black;
+    color: white;
+    /* flex-shrink: 20px; */
+    justify-content:end ;
+    align-items: start;
+ 
+}
+.container1{
+    
+    display: flex;
+    gap:40px;
+    /* flex-wrap: wrap;  */
+    margin-left: 15px;
+    margin-top: 15px;
+   
+}
+#icon{
+   
+    display:flex;
+    justify-content:end;
+    font-size: 20px;
+    margin-left: 940px;
+    margin-top:2px;
+  
+}
